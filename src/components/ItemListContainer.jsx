@@ -1,7 +1,12 @@
-export default function ItemListContainer() {
+import './ItemListContainer.css'
+
+export default function ItemListContainer(props) {
+
+const {greeting} = props;
+
     return (
         <div>
-            <h2>ItemListContainer</h2>
+            <p className='card-title1'>{greeting}</p>
         </div>
     )
 }

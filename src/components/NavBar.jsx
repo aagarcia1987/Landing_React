@@ -1,12 +1,25 @@
+import './navbar.css'
+
 export default function NavBar(){
     return(
-        <nav>
-            <span>Logo</span>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+            <div className='navbar'>
+                <span className='nav-left'>
+                    <img className="logo" src="./src/assets/logoriver.png" alt="River e-Shop" />
+                </span>
+                <nav className='nav-center'>
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">Remeras</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Pantalones</a></li>
+                    <li><a href="#">Buzos</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                </ul>
+                </nav>
+                <span className='nav-right'>
+                    <img className='CartWidget' src="./src/assets/carrito.jpg" alt="Carrito" />
+                </span>
+            </div>
+        
     )
 }

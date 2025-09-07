@@ -7,13 +7,7 @@ export default function App() {
   return (
     <div>
       <NavBar/>
-      <h1>Holaaaassssa</h1>
-      <div className="card">
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <ItemListContainer/>
+      <ItemListContainer greeting="Hola usuario, bienvenido a River e-Shop"/>
     </div>
   )
 }
