@@ -1,4 +1,5 @@
 import './navbar.css'
+import CartWidget from './CartWidget'
 
 export default function NavBar(){
     return(
@@ -17,7 +18,7 @@ export default function NavBar(){
                 </ul>
                 </nav>
                 <span className='nav-right'>
-                    <img className='CartWidget' src="./src/assets/carrito.jpg" alt="Carrito" />
+                    <CartWidget/>
                 </span>
             </div>
         
